@@ -11,11 +11,11 @@ export function DashboardComponent() {
         <div className="px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <Link href="/" className="mr-6 flex items-center">
+              <Link href="./" className="mr-6 flex items-center">
                 <img
                   className="mr-3 h-8"
                   alt="Aeyes Logo"
-                  src="/aeyes-logo.svg"
+                  src="./aeyes-logo.svg"
                   height={32}
                 />
                 

@@ -41,17 +41,17 @@ export function PersonalInfoUserOnboarding({ onNext, initialData = {} }: Persona
         <div className="hidden w-full max-w-md bg-linear-to-b from-black to-primary-900 p-12 lg:block lg:h-screen">
           <div className="mb-8 flex items-center space-x-4">
             <Link
-              href="/"
+              href="./"
               className="flex items-center text-2xl font-semibold text-white"
             >
               <img
                 alt=""
-                src="/aeyes-logo-text.svg"
+                src="./aeyes-logo-text.svg"
                 className="mr-2 h-8"
               />
             </Link>
             <Link
-              href="/"
+              href="./"
               className="inline-flex items-center text-sm font-medium text-primary-100 hover:text-white"
             >
               <svg
@@ -166,7 +166,7 @@ export function PersonalInfoUserOnboarding({ onNext, initialData = {} }: Persona
               <a href="#" className="flex items-center text-2xl font-semibold">
                 <img
                   alt=""
-                  src="/aeyes-logo.svg"
+                  src="./aeyes-logo.svg"
                   className="mr-2 h-8"
                 />
               </a>

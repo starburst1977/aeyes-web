@@ -39,12 +39,12 @@ function ConfirmationStage({ formData, onBack }: { formData: FormData; onBack: (
         <div className="hidden w-full max-w-md bg-linear-to-b from-black to-primary-900 p-12 lg:block lg:h-screen">
           <div className="mb-8 flex items-center space-x-4">
             <Link
-              href="/"
+              href="./"
               className="flex items-center text-2xl font-semibold text-white"
             >
               <img
                 alt=""
-                src="/aeyes-logo-text.svg"
+                src="./aeyes-logo-text.svg"
                 className="mr-2 h-8"
               />
             </Link>
@@ -146,7 +146,7 @@ function ConfirmationStage({ formData, onBack }: { formData: FormData; onBack: (
               <Link href="#" className="flex items-center text-2xl font-semibold">
                 <img
                   alt=""
-                  src="/aeyes-logo.svg"
+                  src="./aeyes-logo.svg"
                   className="mr-2 h-8"
                 />
               </Link>
@@ -262,7 +262,7 @@ function ConfirmationStage({ formData, onBack }: { formData: FormData; onBack: (
                 Back to Edit
               </button>
               <Link
-                href="/dashboard"
+                href="./dashboard"
                 className="rounded-lg bg-primary-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 md:w-1/2"
               >
                 Go to Dashboard

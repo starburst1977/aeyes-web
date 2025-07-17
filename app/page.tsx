@@ -164,7 +164,7 @@ export default function LoginFormWithDescription() {
             <p className="text-sm font-medium text-secondary-600 dark:text-white">
               Don't have an account?&nbsp;
               <a
-                href="/onboarding"
+                href="./onboarding"
                 className="font-medium text-primary-800 hover:underline dark:text-primary-500"
               >
                 Sign up
