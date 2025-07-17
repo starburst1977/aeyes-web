@@ -14,7 +14,7 @@ export default function LoginFormWithDescription() {
             >
               <img
                 className="mb-12 h-8"
-                src="/aeyes-logo-text.svg"
+                src="./aeyes-logo-text.svg"
                 alt="logo"
               />
             </a>
